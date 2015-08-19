@@ -1,7 +1,7 @@
 package mocks
 
 import (
-	"github.com/mehta-sandip/sangrenel/vendor/github.com/Shopify/sarama"
+	"github.com/Shopify/sarama"
 	"sync"
 )
 
