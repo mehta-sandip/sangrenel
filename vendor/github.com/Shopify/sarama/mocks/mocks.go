@@ -16,7 +16,7 @@ package mocks
 import (
 	"errors"
 
-	"github.com/jamiealquiza/sangrenel/vendor/github.com/Shopify/sarama"
+	"github.com/mehta-sandip/sangrenel/vendor/github.com/Shopify/sarama"
 )
 
 // A simple interface that includes the testing.T methods we use to report

@@ -10,8 +10,8 @@ Sarama is currently vendored at Sarama v1.0.0.
 
 Assuming Go is installed (tested up to version 1.4.1) and $GOPATH is set:
 
-- `go get github.com/jamiealquiza/sangrenel`
-- `go build github.com/jamiealquiza/sangrenel`
+- `go get github.com/mehta-sandip/sangrenel`
+- `go build github.com/mehta-sandip/sangrenel`
 
 Binary will be found at `$GOPATH/bin/sangrenel`
 

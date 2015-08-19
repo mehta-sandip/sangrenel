@@ -3,7 +3,7 @@ package mocks
 import (
 	"sync"
 
-	"github.com/jamiealquiza/sangrenel/vendor/github.com/Shopify/sarama"
+	"github.com/mehta-sandip/sangrenel/vendor/github.com/Shopify/sarama"
 )
 
 // Consumer implements sarama's Consumer interface for testing purposes.

@@ -17,12 +17,12 @@ before_install:
 - vagrant/boot_cluster.sh
 - vagrant/create_topics.sh
 - go get golang.org/x/tools/cmd/vet
-- go get github.com/jamiealquiza/sangrenel/vendor/github.com/kisielk/errcheck
+- go get github.com/mehta-sandip/sangrenel/vendor/github.com/kisielk/errcheck
 
 script:
 - go test -v -race ./...
 - go vet ./...
-- errcheck github.com/jamiealquiza/sangrenel/vendor/github.com/Shopify/sarama/...
+- errcheck github.com/mehta-sandip/sangrenel/vendor/github.com/Shopify/sarama/...
 - if [[ -n $(go fmt ./...) ]]; then echo "Please run go fmt on your code." && exit 1; fi
 
 notifications:

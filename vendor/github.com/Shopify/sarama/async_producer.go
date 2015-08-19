@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jamiealquiza/sangrenel/vendor/github.com/eapache/go-resiliency/breaker"
+	"github.com/mehta-sandip/sangrenel/vendor/github.com/eapache/go-resiliency/breaker"
 )
 
 func forceFlushThreshold() int {
@@ -412,7 +412,7 @@ func (p *asyncProducer) leaderDispatcher(topic string, partition int32, input ch
 
 // one per broker
 // groups messages together into appropriately-sized batches for sending to the broker
-// based on https://godoc.org/github.com/jamiealquiza/sangrenel/vendor/github.com/eapache/channels#BatchingChannel
+// based on https://godoc.org/github.com/mehta-sandip/sangrenel/vendor/github.com/eapache/channels#BatchingChannel
 func (p *asyncProducer) messageAggregator(broker *Broker, input chan *ProducerMessage) {
 	var ticker *time.Ticker
 	var timer <-chan time.Time
@@ -584,7 +584,7 @@ func (p *asyncProducer) flusher(broker *Broker, input chan []*ProducerMessage) {
 
 // singleton
 // effectively a "bridge" between the flushers and the topicDispatcher in order to avoid deadlock
-// based on https://godoc.org/github.com/jamiealquiza/sangrenel/vendor/github.com/eapache/channels#InfiniteChannel
+// based on https://godoc.org/github.com/mehta-sandip/sangrenel/vendor/github.com/eapache/channels#InfiniteChannel
 func (p *asyncProducer) retryHandler() {
 	var buf []*ProducerMessage
 	var msg *ProducerMessage

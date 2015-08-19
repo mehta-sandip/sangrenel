@@ -3,7 +3,7 @@ package mocks
 import (
 	"testing"
 
-	"github.com/jamiealquiza/sangrenel/vendor/github.com/Shopify/sarama"
+	"github.com/mehta-sandip/sangrenel/vendor/github.com/Shopify/sarama"
 )
 
 func TestMockConsumerImplementsConsumerInterface(t *testing.T) {

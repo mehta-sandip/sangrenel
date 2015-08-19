@@ -1,12 +1,12 @@
 sarama
 ======
 
-[![GoDoc](https://godoc.org/github.com/jamiealquiza/sangrenel/vendor/github.com/Shopify/sarama?status.png)](https://godoc.org/github.com/jamiealquiza/sangrenel/vendor/github.com/Shopify/sarama)
+[![GoDoc](https://godoc.org/github.com/mehta-sandip/sangrenel/vendor/github.com/Shopify/sarama?status.png)](https://godoc.org/github.com/mehta-sandip/sangrenel/vendor/github.com/Shopify/sarama)
 [![Build Status](https://travis-ci.org/Shopify/sarama.svg?branch=master)](https://travis-ci.org/Shopify/sarama)
 
 Sarama is an MIT-licensed Go client library for Apache Kafka 0.8 (and later).
 
-Documentation is available via godoc at https://godoc.org/github.com/jamiealquiza/sangrenel/vendor/github.com/Shopify/sarama.
+Documentation is available via godoc at https://godoc.org/github.com/mehta-sandip/sangrenel/vendor/github.com/Shopify/sarama.
 Mocks for testing are available in the [mocks](mocks) subpackage.
 
 There is a google group for Kafka client users and authors at https://groups.google.com/forum/#!forum/kafka-clients
